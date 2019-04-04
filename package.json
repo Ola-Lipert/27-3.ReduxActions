@@ -1,0 +1,22 @@
+{
+  "name": "27-3.reduxactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ola-Lipert/27-3.ReduxActions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ola-Lipert/27-3.ReduxActions/issues"
+  },
+  "homepage": "https://github.com/Ola-Lipert/27-3.ReduxActions#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,15 +1,10 @@
 import { ADD_COMMENT } from './actions';
 import { EDIT_COMMENT } from './actions';
 import { REMOVE_COMMENT } from './actions';
-import { THUMB_UP__COMMENT } from './actions';
+import { THUMB_UP_COMMENT } from './actions';
 import { THUMB_DOWN_COMMENT } from './actions';
 
-
-const initialState = {
-    comments: []
-};
-
-function comments(state = initialState, action) {
+function comments(state = [], action) {
     switch (action.type) {
         case ADD_COMMENT:
             return [{
